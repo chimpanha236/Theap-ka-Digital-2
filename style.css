@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Rubik:ital,wght@0,300..900;1,300..900&family=Siemreap&display=swap');
+*{width: 100vw; ;}
+
+body { background-image: url(/frame-door1.png); 
+background-repeat: no-repeat; background-attachment: scroll; margin-bottom: -2vw;
+background-size: 100%; 
+}
+.text-1{
+    color: white; width: auto; margin-top: 5vw; text-align: center; margin-left: -5vw;
+    font-family: "Moul", serif; font-size: 5vw; text-shadow: 2px 2px gold;
+}
+.logo-1{
+     width: 30%; 
+     display: flex; justify-content: center; align-content: center; margin: auto;
+     margin-top: 60vw; ;
+}
+.text-2{
+    color: white; text-align-last: center; text-shadow: 2px 2px gold;
+    font-family: "Moul", serif; font-size: 4vw; margin-bottom: 10vw; margin-top: 7vw;
+}
+.text-3{ color: gold; font-family: "Moul", serif; font-size: 2.5vw;text-align: center; margin-top: -36vw;
+    ; padding: 1vw; width: auto; height: auto; margin-left: 15%; margin-right: 20%;
+        }
+.frame-1{ margin-bottom: 0vw; margin-left: 18%; margin-right: 10%;
+    width: 60%; display: flex; margin-top: -30vw;
+}
+.click-pic{box-shadow: 10px 10px 10px rgb(148, 179, 176); margin-bottom: -10vw;
+width: 10vw; display: flex; margin-left: auto; margin-right: auto; margin-top: 05%;}
+
+h5{font-size: 3vw; text-align: center; font-family: "Siemreap", sans-serif; 
+    color: white; font-weight: 400; margin-top: 10vw; margin-bottom: 10vw; }
+        
+    .flower-big-1{width: 102%; margin-left: -1vw ; ; position: absolute; margin-top: -10vw; margin-right: -2vw;
+        }
+
+
+    .pka-1{ position: absolute; width: 30vw; margin-top: -38vw; margin-left: -5vw;  }
+    .pka-2{ position: absolute; width: 25vw; margin-top: -30.5vw; margin-left: 13vw; }
+    .pka-12{ position: absolute; width: 15vw; margin-top: -16vw; margin-left: 30vw; }
+
+    .pka-3{ position: absolute; width: 30vw; margin-top: -38vw; margin-left: 74vw; }
+    .pka-4{ position: absolute; width: 25vw; margin-top: -30.5vw; margin-left: 60vw; }
+    .pka-34{ position: absolute; width: 15vw; margin-top: -16vw; margin-left: 51vw; }
+   
