@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Moul&family=Rubik:ital,wght@0,300..900;1,300..900&family=Siemreap&display=swap');
 *{width: 100vw; ;}
 
-body { background-image: url(/frame-door1.png); height: 200vw; width: 100%;
+body { background-image: url(/frame-door1.png);
 background-repeat: no-repeat; background-attachment: scroll; margin-bottom: -2vw;
 background-size: 100%; 
 }
