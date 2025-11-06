@@ -69,8 +69,7 @@ background-color: rgb(142, 110, 75);
 .Pic-12{width: 123%; padding: 1px; border-radius: 25px}
 .Pic-13{width:  123%; position: relative; margin-left: 50px;border-radius: 25px}
 
-.pic-32{width: 49%; position: relative; margin-top: 1%; padding: 1px; border-radius: 25px;}
-.pic-33{width: 48.5%; position: absolute; margin-top: 1% ; padding: 1px;border-radius: 25px; height: 49.5%;}
+
 
 .click-pic{box-shadow: 10px 10px 10px rgb(148, 179, 176);
 width: 15vw; display: flex; margin-left: auto; margin-right: auto; margin-top: 10%;}
