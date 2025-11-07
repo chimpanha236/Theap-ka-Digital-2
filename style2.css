@@ -78,7 +78,7 @@ background-color: rgb(142, 110, 75);
 
 .wall-1{ width: 98vw; border-radius: 5%; margin-left: -1vw; }
 .wall-2{width: 48vw; margin-left: -1vw;border-radius: 5%;margin-top: 1vw;}
-.wall-3{width: 48vw; border-radius: 5%; margin-top: -100vw; margin-left: 49vw; margin-bottom: 4vw;}
+.wall-3{width: 48vw; border-radius: 5%; margin-top: -100vw; margin-left: 49vw; margin-bottom: 4.5vw;}
 
 .click-pic{box-shadow: 10px 10px 10px rgb(148, 179, 176);;
 width: 15vw; display: flex; margin-left: auto; margin-right: auto; }
