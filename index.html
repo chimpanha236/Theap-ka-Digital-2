@@ -23,16 +23,31 @@
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#ffffff">
 
-
-
-
-
-    
-    
     <link rel="stylesheet" href="/style.css">
 
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9YNMTB56NB&amp;cx=c&amp;gtm=4e5b50"></script>
+<script type="text/javascript" async="" charset="utf-8" src="https://www.gstatic.com/recaptcha/releases/cLm1zuaUXPLFw7nzKiQTH1dX/recaptcha__en_gb.js" crossorigin="anonymous" integrity="sha384-6Sbp+mfzli+X0nr7Dn7tJhLMcl+GsuoGYdJypkS200nvHVWOA8OyfSXzS+p2LPcE"></script>
+<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KTCFC3S"></script>
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KTCFC3S');
 
-
+var subjectFolder = location.pathname;
+subjectFolder = subjectFolder.replace("/", "");
+if (subjectFolder.startsWith("python/") == true ) {
+  if (subjectFolder.includes("/numpy/") == true ) {
+    subjectFolder = "numpy/"
+  } else if (subjectFolder.includes("/pandas/") == true ) {
+      subjectFolder = "pandas/"
+  } else if (subjectFolder.includes("/scipy/") == true ) {
+      subjectFolder = "scipy/"
+  }
+}
+subjectFolder = subjectFolder.substr(0, subjectFolder.indexOf("/"));
+</script>
 
     
 </head>
